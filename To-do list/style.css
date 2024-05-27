@@ -1,0 +1,100 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#ffd55c 50%, #5a95ff 50%);
+}
+
+.app {
+    font-style: "poppins", sans-serif;
+    width: min(95vw, 500px);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+
+}
+
+.container {
+    padding: 2em 2.5em;
+    background-color: #f1f8fb;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+    border-radius: 0.8em;
+    overflow-wrap: break-word;
+}
+
+#wraper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+
+#wraper input {
+    width: 100%;
+    color: #111111;
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 2px solid #d1d3d4;
+    padding: 1em 0.5em;
+
+}
+
+.add-btn {
+    border: 1px solid black;
+    padding: 11px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+#wraper input:focus {
+    outline: none;
+    border-color: #5a95ff;
+}
+
+button {
+    border: 1px solid black;
+    position: relative;
+    border-radius: 0.5em;
+    font-weight: 500;
+    background-color: #5a95ff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.list_box li {
+    margin-top: 10px;
+    font-size: 30px;
+    list-style-type: none;
+    overflow-wrap: break-word;
+    padding: 5px;
+    background-color: white;
+    color: #111111;
+    
+    
+}
+
+
+.delitem {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    margin-left: 10px;
+}
+.edititem{
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    margin-left: 10px;
+
+}
